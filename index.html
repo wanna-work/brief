@@ -100,8 +100,6 @@ dialog::backdrop{background:rgba(24,24,23,.55)}
 
 <dialog id="dlg" aria-labelledby="dt"><div class="dh"><b id="dt"></b><button class="btn btn--line" type="button" data-act="dclose" style="min-height:40px;padding:8px 18px">Закрыть</button></div><div class="doc" id="db"></div></dialog>
 
-from pathlib import Path
-
 <template id="doc-policy" data-title="Политика обработки персональных данных">
 <p>Настоящая политика описывает, как Илья Татауров обрабатывает персональные данные при работе сервиса FAST.START и подготовке персональных сайтов.</p>
 
@@ -230,7 +228,7 @@ from pathlib import Path
 "use strict";
 /* ===== НАСТРОЙКА (заполните перед запуском, см. README.md) ===== */
 var CONFIG={
-  ENDPOINT:"https://script.google.com/macros/s/AKfycbxv8HOatidErwM4WHG0LQMLmdWKjP2cY4xaeRWBf0ERc3qWfrZIpIT9uGZlqNYEYsV7/exec",     /* адрес веб-приложения Google Apps Script */
+  ENDPOINT:"https://script.google.com/macros/s/AKfycbyNNl--maFXdKTND33c4XkVQLBsz2y4FxZ-qHAzPJRWQHeweHQAaEGZg_qmxJhN6Zjg/exec",     /* адрес веб-приложения Google Apps Script */
   DOCS_CHECK:true, /* true: отправка заблокирована, пока в политике и условиях есть незаполненные поля */
   MAX_FILE:4*1024*1024, MAX_TOTAL:12*1024*1024, MAX_FILES:10
 };
